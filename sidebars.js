@@ -2,11 +2,6 @@ module.exports = {
   productSidebar: [
     {
       type: 'doc',
-      id: 'products',
-      label: 'Visual 产品中心',
-    },
-    {
-      type: 'doc',
       id: 'index',
       label: 'Worktree 产品介绍',
     },
