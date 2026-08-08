@@ -2,8 +2,13 @@ module.exports = {
   productSidebar: [
     {
       type: 'doc',
+      id: 'products',
+      label: 'Visual 产品中心',
+    },
+    {
+      type: 'doc',
       id: 'index',
-      label: '产品介绍',
+      label: 'Worktree 产品介绍',
     },
     {
       type: 'doc',
@@ -21,4 +26,4 @@ module.exports = {
       label: '数据与隐私',
     },
   ],
-};
+}
