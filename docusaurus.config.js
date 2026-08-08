@@ -47,17 +47,30 @@ module.exports = {
     navbar: {
       title: 'Visual Products',
       logo: {
-        alt: 'Visual Worktree Logo',
+        alt: 'Visual Products Logo',
         src: 'img/logo.png',
       },
       items: [
-        { to: '/products', label: '产品', position: 'left' },
-        { to: '/', label: 'Worktree 文档', position: 'left' },
-        { to: '/features', label: '功能', position: 'left' },
-        { to: '/getting-started', label: '快速开始', position: 'left' },
+        { to: '/products', label: '产品中心', position: 'left' },
+        { to: '/', label: 'Visual Worktree', position: 'left' },
         {
-          to: '/blog/visual-worktree-product-tour',
-          label: '功能文章',
+          to: '/products?product=visual-ai-coding',
+          label: 'Visual AI Coding',
+          position: 'left',
+        },
+        {
+          to: '/products?product=visual-lark-bridge',
+          label: 'Visual Lark Bridge',
+          position: 'left',
+        },
+        {
+          to: '/products?product=visual-learn',
+          label: 'Visual Learn',
+          position: 'left',
+        },
+        {
+          to: '/products?product=visual-muse',
+          label: 'Visual Muse',
           position: 'left',
         },
         {
