@@ -4,13 +4,17 @@ title: Visual Worktree
 description: Visual Worktree 是一个 macOS 桌面应用，用于可视化管理本地多个 Git 仓库，并按任务组织跨仓库 worktree。
 ---
 
+import ProductLinks from '@site/src/components/ProductLinks'
+
 # Visual Worktree
 
 Visual Worktree 是一个面向研发同学的 macOS 桌面应用。它把「一个需求要跨多个仓库修改」这件事，从一堆终端命令和路径记忆，收拢成按任务组织的可视化工作台。
 
 ![Visual Worktree 任务视图](/img/visual-worktree-overview.png)
 
-源码仓库：[imberZsk/visual-worktree](https://github.com/imberZsk/visual-worktree)
+## 项目入口
+
+<ProductLinks productId="visual-worktree" />
 
 ## 它解决什么问题
 
@@ -33,7 +37,6 @@ Visual Worktree 是一个面向研发同学的 macOS 桌面应用。它把「一
 - [功能总览](/features)
 - [快速开始](/getting-started)
 - [数据与隐私](/privacy-and-data)
-- [源码仓库](https://github.com/imberZsk/visual-worktree)
 
 ## 适合谁
 
