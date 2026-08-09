@@ -49,34 +49,29 @@ module.exports = {
       logo: {
         alt: 'Visual Products Logo',
         src: 'img/logo.png',
+        href: '/products',
       },
       items: [
-        { to: '/products', label: '产品中心', position: 'left' },
         { to: '/', label: 'Visual Worktree', position: 'left' },
         {
-          to: '/products?product=visual-ai-coding',
+          to: '/visual-ai-coding',
           label: 'Visual AI Coding',
           position: 'left',
         },
         {
-          to: '/products?product=visual-lark-bridge',
+          to: '/visual-lark-bridge',
           label: 'Visual Lark Bridge',
           position: 'left',
         },
         {
-          to: '/products?product=visual-learn',
+          to: '/visual-learn',
           label: 'Visual Learn',
           position: 'left',
         },
         {
-          to: '/products?product=visual-muse',
+          to: '/visual-muse',
           label: 'Visual Muse',
           position: 'left',
-        },
-        {
-          href: 'https://github.com/imberZsk/visual-worktree',
-          label: '源码仓库',
-          position: 'right',
         },
       ],
     },
@@ -84,38 +79,28 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: '内容',
-          items: [
-            { label: '产品介绍', to: '/' },
-            { label: '功能总览', to: '/features' },
-            { label: '快速开始', to: '/getting-started' },
-            { label: '数据与隐私', to: '/privacy-and-data' },
-            { label: '功能文章', to: '/blog/visual-worktree-product-tour' },
-          ],
-        },
-        {
           title: 'Visual 产品',
           items: [
             { label: '全部产品', to: '/products' },
             {
               label: 'Visual Worktree',
-              href: 'https://github.com/imberZsk/visual-worktree',
+              to: '/',
             },
             {
               label: 'Visual AI Coding',
-              href: 'https://github.com/imberZsk/visual-ai-coding',
+              to: '/visual-ai-coding',
             },
             {
               label: 'Visual Lark Bridge',
-              href: 'https://github.com/imberZsk/visual-lark-bridge',
+              to: '/visual-lark-bridge',
             },
             {
               label: 'Visual Learn',
-              href: 'https://github.com/imberZsk/visual-learn',
+              to: '/visual-learn',
             },
             {
               label: 'Visual Muse',
-              href: 'https://github.com/imberZsk/visual-muse',
+              to: '/visual-muse',
             },
           ],
         },
