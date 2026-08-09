@@ -1,12 +1,12 @@
 {
-  "name": "visual-docs",
+  "name": "imber-visual-docs",
   "version": "0.2.0",
   "private": true,
   "description": "Visual 系列产品与文档中心",
-  "homepage": "https://visual-worktree-docs.netlify.app",
+  "homepage": "https://imber-visual-docs.netlify.app",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imberZsk/visual-docs.git"
+    "url": "git+https://github.com/imberZsk/imber-visual-docs.git"
   },
   "scripts": {
     "dev": "docusaurus start --host 0.0.0.0",

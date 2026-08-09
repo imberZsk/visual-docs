@@ -15,7 +15,7 @@ const appRoot = join(docsRoot, '..', 'visual-worktree')
 const requireFromApp = createRequire(join(appRoot, 'package.json'))
 // tempRoot 存储截图生成过程使用的临时演示数据目录。
 // WHY：演示数据会创建真实 Git 仓库和 worktree；放到系统临时目录可避免 docs 项目里出现嵌套 .git。
-const tempRoot = join(tmpdir(), 'visual-docs-capture')
+const tempRoot = join(tmpdir(), 'imber-visual-docs-capture')
 // sourceRoot 存储演示源项目仓库目录。
 const sourceRoot = join(tempRoot, 'source-projects')
 // worktreesRoot 存储演示 worktree 根目录。
