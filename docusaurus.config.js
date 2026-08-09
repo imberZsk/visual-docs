@@ -45,7 +45,7 @@ function createProductFooterItems(productOrder, products) {
 module.exports = {
   title: 'Visual Docs',
   tagline: 'Visual 系列产品与文档中心',
-  url: 'https://visual-docs.netlify.app',
+  url: 'https://visual-worktree-docs.netlify.app',
   baseUrl: '/',
   organizationName: 'imberZsk',
   projectName: 'visual-docs',

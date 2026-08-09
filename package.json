@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "description": "Visual 系列产品与文档中心",
-  "homepage": "https://visual-docs.netlify.app",
+  "homepage": "https://visual-worktree-docs.netlify.app",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imberZsk/visual-docs.git"
