@@ -1,5 +1,5 @@
 module.exports = {
-  productSidebar: [
+  worktreeSidebar: [
     {
       type: 'doc',
       id: 'index',
@@ -19,6 +19,34 @@ module.exports = {
       type: 'doc',
       id: 'privacy-and-data',
       label: '数据与隐私',
+    },
+  ],
+  aiCodingSidebar: [
+    {
+      type: 'doc',
+      id: 'visual-ai-coding',
+      label: '产品介绍',
+    },
+  ],
+  larkBridgeSidebar: [
+    {
+      type: 'doc',
+      id: 'visual-lark-bridge',
+      label: '产品介绍',
+    },
+  ],
+  learnSidebar: [
+    {
+      type: 'doc',
+      id: 'visual-learn',
+      label: '产品介绍',
+    },
+  ],
+  museSidebar: [
+    {
+      type: 'doc',
+      id: 'visual-muse',
+      label: '产品介绍',
     },
   ],
 }

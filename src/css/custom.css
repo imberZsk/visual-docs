@@ -47,15 +47,3 @@
 .navbar {
   backdrop-filter: blur(12px);
 }
-
-@media (max-width: 600px) {
-  .visual-product-tabs .tabs {
-    flex-wrap: wrap;
-    overflow-x: visible;
-  }
-
-  .visual-product-tabs .tabs__item {
-    flex: 1 1 auto;
-    text-align: center;
-  }
-}

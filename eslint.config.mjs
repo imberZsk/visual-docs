@@ -4,7 +4,14 @@ import globals from 'globals'
 
 export default [
   {
-    ignores: ['.docusaurus/**', 'build/**', 'coverage/**', 'dist/**', 'node_modules/**', 'release/**'],
+    ignores: [
+      '.docusaurus/**',
+      'build/**',
+      'coverage/**',
+      'dist/**',
+      'node_modules/**',
+      'release/**',
+    ],
   },
   js.configs.recommended,
   {
