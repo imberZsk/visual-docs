@@ -43,12 +43,12 @@ function createProductFooterItems(productOrder, products) {
 }
 
 module.exports = {
-  title: 'Visual Docs',
+  title: 'Imber Visual Docs',
   tagline: 'Visual 系列产品与文档中心',
-  url: 'https://visual-worktree-docs.netlify.app',
+  url: 'https://imber-visual-docs.netlify.app',
   baseUrl: '/',
   organizationName: 'imberZsk',
-  projectName: 'visual-docs',
+  projectName: 'imber-visual-docs',
   favicon: 'img/favicon.ico',
   onBrokenLinks: 'throw',
   markdown: {
@@ -89,9 +89,9 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Visual Docs',
+      title: 'Imber Visual Docs',
       logo: {
-        alt: 'Visual Docs Logo',
+        alt: 'Imber Visual Docs Logo',
         src: 'img/logo.png',
         href: '/products',
       },
@@ -105,7 +105,7 @@ module.exports = {
           items: createProductFooterItems(PRODUCT_ORDER, PRODUCTS),
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Visual Docs.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Imber Visual Docs.`,
     },
   },
 }
