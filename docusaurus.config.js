@@ -49,7 +49,7 @@ module.exports = {
   baseUrl: '/',
   organizationName: 'imberZsk',
   projectName: 'imber-visual-docs',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/avatar.jpeg',
   onBrokenLinks: 'throw',
   markdown: {
     hooks: {
