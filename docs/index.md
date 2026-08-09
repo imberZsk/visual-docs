@@ -1,5 +1,5 @@
 ---
-slug: /
+slug: /visual-worktree
 title: Visual Worktree
 description: Visual Worktree 是一个 macOS 桌面应用，用于可视化管理本地多个 Git 仓库，并按任务组织跨仓库 worktree。
 ---
