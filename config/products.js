@@ -11,7 +11,7 @@ const PRODUCT_IDS = {
 const PRODUCTS = {
   [PRODUCT_IDS.WORKTREE]: {
     label: 'Visual Worktree',
-    docsPath: '/',
+    docsPath: '/visual-worktree',
     repositoryUrl: 'https://github.com/imberZsk/visual-worktree',
     releasesUrl: 'https://github.com/imberZsk/visual-worktree/releases/latest',
   },
