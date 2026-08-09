@@ -3,6 +3,8 @@ title: Visual Lark Bridge
 description: Visual Lark Bridge 将飞书消息桥接到本机 AI 编程工具。
 ---
 
+import ProductLinks from '@site/src/components/ProductLinks'
+
 # Visual Lark Bridge
 
 Visual Lark Bridge 将飞书消息桥接到本机 Claude Code，并通过流式交互卡片展示执行状态、工具进度与回答内容。
@@ -15,5 +17,4 @@ Visual Lark Bridge 将飞书消息桥接到本机 Claude Code，并通过流式�
 
 ## 项目入口
 
-- [源码仓库](https://github.com/imberZsk/visual-lark-bridge)
-- [下载最新版本](https://github.com/imberZsk/visual-lark-bridge/releases/latest)
+<ProductLinks productId="visual-lark-bridge" />

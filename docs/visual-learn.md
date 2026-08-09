@@ -3,6 +3,8 @@ title: Visual Learn
 description: Visual Learn 用于阅读和管理本地 Markdown 学习资料。
 ---
 
+import ProductLinks from '@site/src/components/ProductLinks'
+
 # Visual Learn
 
 Visual Learn 扫描本地 Markdown 学习资料，在桌面应用内阅读文章、记录完成进度并维护标注与总结。
@@ -15,5 +17,4 @@ Visual Learn 扫描本地 Markdown 学习资料，在桌面应用内阅读文章
 
 ## 项目入口
 
-- [源码仓库](https://github.com/imberZsk/visual-learn)
-- [下载最新版本](https://github.com/imberZsk/visual-learn/releases/latest)
+<ProductLinks productId="visual-learn" />
